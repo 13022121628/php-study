@@ -1,5 +1,9 @@
 <?php
+var_dump(1);
+$url='https://credit.wsjd.gov.cn/portal/creditpublicity/0109000000';
 
-    phpinfo();
+$html= file_get_contents($url);
+
+dump($html);
 
 ?>
